@@ -1,0 +1,29 @@
+.button {
+    height: 48px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button:hover:enabled {
+    background-color: #F9FAFB;
+}
+
+.button:active:enabled {
+    background-color: #F0F5FD;
+}
+
+.button:disabled {
+    color: #DDDDDD;
+    cursor: auto;
+    opacity: 1;
+}

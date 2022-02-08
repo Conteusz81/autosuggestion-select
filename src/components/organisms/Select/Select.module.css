@@ -1,0 +1,15 @@
+.select-container {
+    position: relative;
+    width: 300px;
+}
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+    top: 48px;
+    left: 0;
+}
+
+.dropdown-list-opened {
+    display: block;
+}

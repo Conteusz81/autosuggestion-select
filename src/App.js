@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Select from "./components/organisms/Select/Select";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{
+        height: '100vh',
+        display: "grid",
+        placeContent: 'start center',
+        paddingTop: '100px',
+        backgroundColor: '#f6f6f6'
+    }}>
+        <Select />
     </div>
   );
 }
